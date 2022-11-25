@@ -1,5 +1,5 @@
-__author__ = """Mykhailo Havelia"""
-__email__ = 'misha.gavela@gmail.com'
+__author__ = """A"""
+__email__ = 'A@gmail.com'
 __version__ = '0.1.0'
 
 
