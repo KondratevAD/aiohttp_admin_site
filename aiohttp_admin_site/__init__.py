@@ -1,5 +1,5 @@
-__author__ = """A"""
-__email__ = 'A@gmail.com'
+__author__ = """KondartevAD"""
+__email__ = 'kondratev_ad@bk.ru'
 __version__ = '0.1.0'
 
 

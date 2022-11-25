@@ -12,10 +12,10 @@ def length(*, max_value: int = None, min_value: int = None) -> LengthCallable:
     """
     This validator need to restrict length of value in field.
 
-        >>> from aiohttp_admin_site.mappers import Mapper, StringField
-        >>>
-        >>> class Foo(Mapper):
-        >>>     field_name = StringField(validators=[length(max_value=5)])
+        from aiohttp_admin_site.mappers import Mapper, StringField
+
+        class Foo(Mapper):
+            field_name = StringField(validators=[length(max_value=5)])
     """
     def length_validator(value: t.Sized) -> None:
         if max_value and len(value) > max_value:
