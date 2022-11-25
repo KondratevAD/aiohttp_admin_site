@@ -2,8 +2,8 @@
 name = "aiohttp_admin_site"
 version = "0.0.1"
 description = "Generator an admin interface based on aiohttp."
-authors = [""]
-maintainers = [""]
+authors = ["KondartevAD <kondratev_ad@bk.ru>"]
+maintainers = ["KondartevAD <kondratev_ad@bk.ru>"]
 license = "MIT"
 readme = 'README.rst'
 homepage = "https://github.com/KondratevAD/aiohttp_admin_site"
