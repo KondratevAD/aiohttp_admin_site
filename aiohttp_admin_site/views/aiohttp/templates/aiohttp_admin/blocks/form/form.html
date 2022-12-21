@@ -30,7 +30,7 @@
             {% if name in readonly %}
             <div class="form-group">
                 <label>{{ name }}:</label>
-                <input type="text" readonly="readonly" class="form-control" name="cardoperator_token_exp" id="cardoperator_token_exp_input" value="{{ field.value }}" aria-describedby="inputGroup-sizing-default">
+                <input type="text" readonly="readonly" class="form-control" name="{{ name }}" id="{{ name }}_input" value="{{ field.value }}" aria-describedby="inputGroup-sizing-default">
             </div>
             {% endif %}
 
@@ -45,7 +45,7 @@
             {% if name not in exclude and name in fields and name in readonly %}
             <div class="form-group">
                 <label>{{ name }}:</label>
-                <input type="text" readonly="readonly" class="form-control" name="cardoperator_token_exp" id="cardoperator_token_exp_input" value="{{ field.value }}" aria-describedby="inputGroup-sizing-default">
+                <input type="text" readonly="readonly" class="form-control" name="{{ name }}" id="{{ name }}_input" value="{{ field.value }}" aria-describedby="inputGroup-sizing-default">
             </div>
             {% endif %}
         {% endfor %}
