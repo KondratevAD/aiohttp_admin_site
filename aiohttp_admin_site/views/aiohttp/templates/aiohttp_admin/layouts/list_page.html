@@ -18,6 +18,10 @@
                 {% include 'aiohttp_admin/blocks/list_objects_block.html' %}
             </div>
 
+<!--            {%- if controller.can_delete %}-->
+<!--            <a class="btn btn-success btn-action" href="{{ create_url }}">Create</a>-->
+<!--            {%- endif %}-->  <!-- todo: delete button-->
+
             <!-- todo: order -->
             {% if controller_view.infinite_scroll %}
                 {{

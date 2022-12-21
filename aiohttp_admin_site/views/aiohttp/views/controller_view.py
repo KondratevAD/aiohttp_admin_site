@@ -149,6 +149,7 @@ class ControllerView(BaseControllerView):
                 "mapper": mapper or controller.mapper(instance.data.to_dict()),
                 "fields": controller.fields,
                 "exclude_fields": self.controller.exclude_update_fields,
+                "readonly_fields": controller.read_only_fields,
                 "is_common": True,
                 "tabs": self.tabs_list(),
                 "pk": pk,
