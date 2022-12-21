@@ -205,6 +205,7 @@ class ManyToManyTabView(TabBaseView, BaseControllerView):
                 "object": instance,
                 "media": self.get_extra_media(),
                 "exclude_fields": self.controller.exclude_update_fields,
+                "readonly_fields": controller.read_only_fields,
                 "controller": controller,
                 "title": f"{self.get_name()}#{pk}",
                 "pk": pk,
